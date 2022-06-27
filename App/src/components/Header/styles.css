@@ -1,9 +1,10 @@
-*{
+* {
     @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;500&display=swap');
     font-family: 'Anek Latin', sans-serif;
 }
-.header{
-    color: #fff;
+
+.header {
+    color: #282c34;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,16 +14,18 @@
 
 }
 
-.header .text h1{
+
+
+.header .text h1 {
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 700;
     margin-bottom: 17px;
 }
 
-.btn-main{
-    background-color: #fbffa3;
-    color: rgb(34, 34, 34);
+.btn-main {
+    background-color: #282c34;
+    color: #f6f6f6;
     box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
     height: 40px;
     text-align: center;
@@ -32,12 +35,14 @@
     margin-left: 10px;
 
 }
-form{
+
+form {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-input{
+
+input {
     box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
     padding: 10px !important;
     border-radius: 24px !important;
@@ -45,6 +50,7 @@ input{
     height: 40px;
 
 }
+
 .card {
     color: #000 !important;
 }
